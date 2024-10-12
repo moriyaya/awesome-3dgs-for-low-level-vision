@@ -1,5 +1,5 @@
 <div align="center"> 
-<img src="Images/image1.png" width="400" height="350" alt="Celebration"/>    
+<img src="Images/image1.jpg" width="400" height="350" alt="Celebration"/>    
    
 # Awesome 3D Gaussian Splatting for Low-Level Vision  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
    
@@ -62,8 +62,8 @@ If you find this repository useful, please consider STARing this list. Feel free
 * GaussianSR: High Fidelity 2D Gaussian Splatting for Arbitrary-Scale Image Super-Resolution, *arXiv*. [[Paper](https://arxiv.org/abs/2407.18046.pdf)] 
 * LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation, *arXiv*. [[Paper](https://arxiv.org/pdf/2402.05054.pdf)] [[Website](https://me.kiui.moe/lgm/)] [[Code](https://github.com/3DTopia/LGM)]
 * FlashGS: Efficient 3D Gaussian Splatting for Large-scale and High-resolution Rendering, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.07967.pdf)]
-* FastSR-NeRF: Improving NeRF Efficiency on Consumer Devices With a Simple Super-Resolution Pipeline, **WACV, 2024**. [[Paper](https://openaccess.thecvf.com/content/WACV2024/papers/Lin_FastSR-NeRF_Improving_NeRF_Efficiency_on_Consumer_Devices_With_a_Simple_WACV_2024_paper.pdf)]
 *  4K4D: Real-Time 4D View Synthesis at 4K Resolution. [[Paper](https://drive.google.com/file/d/1Y-C6ASIB8ofvcZkyZ_Vp-a2TtbiPw1Yx/view?usp=sharing)] [[Website](https://zju3dv.github.io/4k4d/) | [Code (Inference)](https://github.com/zju3dv/4K4D)]]
+* FastSR-NeRF: Improving NeRF Efficiency on Consumer Devices With a Simple Super-Resolution Pipeline, **WACV, 2024**. [[Paper](https://openaccess.thecvf.com/content/WACV2024/papers/Lin_FastSR-NeRF_Improving_NeRF_Efficiency_on_Consumer_Devices_With_a_Simple_WACV_2024_paper.pdf)]
 
 ### Image De-raining
 * DeRainGS: Gaussian Splatting for Enhanced Scene Reconstruction in Rainy Environments, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.11540)]
@@ -71,7 +71,6 @@ If you find this repository useful, please consider STARing this list. Feel free
 ### Image Fusion
 * Thermal3D-GS: Physics-induced 3D Gaussians for Thermal Infrared Novel-view Synthesis, **ECCV, 2024**. [[Paper](https://arxiv.org/abs/2409.08042)]  [[Code](https://github.com/mzzcdf/Thermal3DGS)]
 * ThermalGaussian: Thermal 3D Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2409.07200)]
-*  4K4D: Real-Time 4D View Synthesis at 4K Resolution. [[Paper](https://drive.google.com/file/d/1Y-C6ASIB8ofvcZkyZ_Vp-a2TtbiPw1Yx/view?usp=sharing)] [[Website](https://zju3dv.github.io/4k4d/) | [Code (Inference)](https://github.com/zju3dv/4K4D)]]
 ---
 
  
