@@ -1,5 +1,5 @@
 <div align="center"> 
-<img src="Images/image1.jpg" width="400" height="350" alt="Celebration"/>    
+<img src="Images/image1.jpg" width="300" height="250" alt="Celebration"/>    
    
 # Awesome 3D Gaussian Splatting for Low-Level Vision  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
    
@@ -78,4 +78,4 @@ If you find this repository useful, please consider STARing this list. Feel free
 ## Acknowledgment
 
 
-The template of this website is inspired by [awesome-3dgs-for-robotics](https://github.com/dtc111111/awesome-3dgs-for-robotics), and we appreciate their contribution.
+The template of this website is crafted with reference to [awesome-3dgs-for-robotics](https://github.com/dtc111111/awesome-3dgs-for-robotics), and we appreciate their contribution.
