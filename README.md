@@ -6,8 +6,7 @@
  
 
 
-This repo contains a curative list of **3D Gaussian Splatting papers related to the Low-Level Vision (LLV) domain**, focusing on a range of fundamental tasks in 3D image processing and enhancement. Key areas include:  Image Denoising; Low-light Image Enhancement; Image De-raining; Image Dehazing; Image Deblurring
-Super-resolution Reconstruction; Image Inpainting; Image Fusion...
+This repo contains a curative list of **3D Gaussian Splatting papers related to the Low-Level Vision (LLV) domain**, specifically focusing on 3D Gaussian Splatting applications in challenging environments and low-quality images. This includes noisy images, underwater scenes, night/low-light conditions, blurry images, low-resolution images, rainy scenes, and infrared/visible light images.
 
 #### Please feel free to send me [pull requests](https://github.com/moriyaya/awesome-3dgs-for-low-level-vision) or [email](mailto:luguoxinxin@163.com) to add papers! <br>
 
@@ -19,13 +18,13 @@ If you find this repository useful, please consider STARing this list. Feel free
 ## Overview
 
   - [3DGS LLV Model](#3dgs-general-model)
-    - [Image Denoising](#Image-Denoising)
-    - [Underwater Image Enhancement](#Underwater-Image-Enhancement)
-    - [Low-light Image Enhancement](#Low-light-Image-Enhancement)
-    - [Image Deblurring](#Image-Deblurring)
+    - [Noisy Images](#Image-Denoising)
+    - [Underwater Scenes](#Underwater-Image-Enhancement)
+    - [Night/Low-light Conditions](#Low-light-Image-Enhancement)
+    - [Blurry Images](#Image-Deblurring)
     - [Super-resolution Reconstruction](#Super-resolution-Reconstruction)
-    - [Image De-raining](#Image-De-raining)
-    - [Image Dehaze](#Image-De-haze)
+    - [Rainy Scenes](#Image-De-raining)
+    - [Foggy Scenes](#Image-De-haze)
     - [Image High Dynamic Range](#High-Dynamic-Range)        
     - [Thermal Infrared](#Thermal-Infrared)
 
@@ -40,27 +39,27 @@ If you find this repository useful, please consider STARing this list. Feel free
 
 ## 3DGS LLV Model
 
-### Image Denoising
+### Noisy Images
 * Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting, **ECCV, 2024**. [[Paper](https://arxiv.org/pdf/2312.04820)] [[Code](https://github.com/yangxiaofeng/LODS)]
 * GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise, *arXiv*. [[Paper](https://arxiv.org/pdf/2311.11221.pdf)] [[Website](https://arxiv.org/abs/2311.11221)]
 * DN-4DGS: Denoised Deformable Network with Temporal-Spatial Aggregation for Dynamic Scene Rendering, **NeurIPS, 2024**. [[Paper](https://arxiv.org/abs/2410.13607)] [[Code](https://github.com/peoplelu/DN-4DGS)]
 * Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2312.04820)]
 * GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise, *arXiv*. [[Paper](https://arxiv.org/abs/2311.11221)]
 
-### Underwater Image Enhancement
+### Underwater Scenes
 * SeaSplat: Representing Underwater Scenes with 3D Gaussian Splatting and a Physically Grounded Image Formation Model, *arXiv*. [[Paper](https://arxiv.org/pdf/2409.17345)][[Website](https://seasplat.github.io)]
 * UW-GS: Distractor-Aware 3D Gaussian Splatting for Enhanced Underwater Scene Reconstruction, *arXiv*. [[Paper](https://arxiv.org/pdf/2410.01517)]
 * WaterSplatting: Fast Underwater 3D Scene Reconstruction Using Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2408.08206.pdf)] [[Website](https://water-splatting.github.io/)]
 * Aquatic-GS: A Hybrid 3D Representation for Underwater Scenes, *arXiv*. [[Paper](https://arxiv.org/abs/2411.00239)] [[Website](https://aquaticgs.github.io/)]
 * RecGS: Removing Water Caustic with Recurrent Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2407.10318)]
 
-### Low-light Image Enhancement
+### Night/Low-light Conditions
 * DarkGS: Learning Neural Illumination and 3D Gaussians Relighting for Robotic Exploration in the Dark, *arXiv*. [[Paper](https://arxiv.org/abs/2403.10814.pdf)]  [[Website](https://github.com/tyz1030/darkgs)]
 * Gaussian in the Dark: Real-Time View Synthesis From Inconsistent Dark Images Using Gaussian Splatting, **Pacific Graphics, 2024**. [[Paper](https://arxiv.org/pdf/2408.09130.pdf)] [[Code](https://github.com/yec22/Gaussian-DK)]
 * Lighting Every Darkness with 3DGS: Fast Training and Real-Time Rendering for HDR View Synthesis, **CVPR, 2024**. [[Paper](https://arxiv.org/abs/2406.06216.pdf)] [[Code](https://github.com/Srameo/LE3D)] [[Website](https://srameo.github.io/projects/le3d/)]
 * From Chaos to Clarity: 3DGS in the Dark, *arXiv*. [[Paper](https://arxiv.org/abs/2406.08300)][[Website](https://lizhihao6.github.io/Raw3DGS)]
 
-### Image Deblurring
+### Blurry Images
 * Deblur-GS: 3D Gaussian Splatting from Camera Motion Blurred Images, **I3D, 2024**. [[Paper](https://chaphlagical.icu/Deblur-GS/static/paper/Deblur_GS_author_version.pdf)]  [[Code](https://github.com/Chaphlagical/Deblur-GS)]
 * Deblurring 3D Gaussian Splatting, **ECCV, 2024**. [[Website](https://benhenryl.github.io/Deblurring-3D-Gaussian-Splatting/)]  [[Code](https://github.com/benhenryL/Deblurring-3D-Gaussian-Splatting)]
 * EvaGaussians: Event Stream Assisted Gaussian Splatting from Blurry Images, *arXiv*. [[Paper](https://arxiv.org/abs/2405.20224)][[Website](https://drexubery.github.io/EvaGaussians/)]
@@ -87,11 +86,11 @@ If you find this repository useful, please consider STARing this list. Feel free
 * On Scaling Up 3D Gaussian Splatting Training, *arXiv*. [[Paper](https://arxiv.org/abs/2406.18533)] [[Website](https://daohanlu.github.io/scaling-up-3dgs/)]
 * 4K4DGen: Panoramic 4D Generation at 4K Resolution, *arXiv*. [[Paper](https://arxiv.org/abs/2406.13527)] 
 
-### Image De-raining
+### Rainy Scenes
 * DeRainGS: Gaussian Splatting for Enhanced Scene Reconstruction in Rainy Environments, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.11540)]
 * RainyScape: Unsupervised Rainy Scene Reconstruction using Decoupled Neural Rendering, *arXiv*. [[Paper](https://arxiv.org/abs/2404.11401)]
 
-### Image dehaze
+### Foggy Scenes
 * DehazeNeRF: Multiple Image Haze Removal and 3D Shape Reconstruction using Neural Radiance Fields, **3DV, 2024**. [[Paper](https://arxiv.org/abs/2303.11364)] [[Website](https://www.computationalimaging.org/publications/dehazenerf/)]
 * Reliable Image Dehazing by NeRF, *arXiv*. [[Paper](https://arxiv.org/abs/2303.09153)]
 
