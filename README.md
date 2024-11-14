@@ -46,7 +46,6 @@ If you find this repository useful, please consider STARing this list. Feel free
 * DN-4DGS: Denoised Deformable Network with Temporal-Spatial Aggregation for Dynamic Scene Rendering, **NeurIPS, 2024**. [[Paper](https://arxiv.org/abs/2410.13607)] [[Code](https://github.com/peoplelu/DN-4DGS)]
 * Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2312.04820)]
 * GaussianDiffusion: 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise, *arXiv*. [[Paper](https://arxiv.org/abs/2311.11221)]
-* 
 
 ### Underwater Image Enhancement
 * SeaSplat: Representing Underwater Scenes with 3D Gaussian Splatting and a Physically Grounded Image Formation Model, *arXiv*. [[Paper](https://arxiv.org/pdf/2409.17345)][[Website](https://seasplat.github.io)]
@@ -54,7 +53,6 @@ If you find this repository useful, please consider STARing this list. Feel free
 * WaterSplatting: Fast Underwater 3D Scene Reconstruction Using Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2408.08206.pdf)] [[Website](https://water-splatting.github.io/)]
 * Aquatic-GS: A Hybrid 3D Representation for Underwater Scenes, *arXiv*. [[Paper](https://arxiv.org/abs/2411.00239)] [[Website](https://aquaticgs.github.io/)]
 * RecGS: Removing Water Caustic with Recurrent Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2407.10318)]
-* 
 
 ### Low-light Image Enhancement
 * DarkGS: Learning Neural Illumination and 3D Gaussians Relighting for Robotic Exploration in the Dark, *arXiv*. [[Paper](https://arxiv.org/abs/2403.10814.pdf)]  [[Website](https://github.com/tyz1030/darkgs)]
